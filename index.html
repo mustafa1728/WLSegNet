@@ -258,7 +258,7 @@ BODY {
 <center>
     <table border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td align="center" valign="bottom" width=600>
+        <td align="center" valign="bottom" style="max-width:800px">
             <img class="result" src="assets/setting.png" style="width: 100%">
         </td>
       </tr>
@@ -269,7 +269,7 @@ BODY {
     <br/>
 
 <h2>Abstract</h2>
-<div style="font-size:2.5vh; text-align: justify;max-width:700px">
+<div style="font-size:16px; text-align: justify;max-width:700px">
 <p>
     Increasing attention is being diverted to data-efficient problem settings like Open Vocabulary Semantic Segmentation (OVSS) which deals with segmenting an arbitrary object that may or may not be seen during training. The closest standard problems related to OVSS are Zero-Shot and Few-Shot Segmentation (ZSS, FSS) and their Cross-dataset variants where zero to few annotations are needed to segment novel classes. The existing FSS and ZSS methods utilize fully supervised pixel-labelled seen classes to segment unseen classes. Pixel-level labels are hard to obtain, and using weak supervision in the form of inexpensive image-level labels is often more practical. To this end, we propose a novel unified weakly supervised OVSS pipeline that can perform ZSS, FSS and Cross-dataset segmentation on novel classes without using pixel-level labels for either the base (seen) or the novel (unseen) classes in an inductive setting. We propose Weakly-Supervised Language-Guided Segmentation Network (WLSegNet), a novel language-guided segmentation pipeline that i) learns generalizable context vectors with batch aggregates (mean) to map class prompts to image features using frozen CLIP (a vision-language model) and ii) decouples weak ZSS/FSS into weak semantic segmentation and Zero-Shot segmentation. The learned context vectors avoid overfitting on seen classes during training and transfer better to novel classes during testing. WLSegNet avoids fine-tuning and the use of external datasets during training. The proposed pipeline beats existing methods for weak gen- eralized Zero-Shot and weak Few-Shot semantic segmentation by 39 and 3 mIOU points respectively on PASCAL VOC and weak Few-Shot semantic segmentation by 5 mIOU points on MS COCO. On a harder setting of 2- way 1-shot weak FSS, WLSegNet beats the baselines by 13 and 22 mIOU points on PASCAL VOC and MS COCO, respectively. Without using dense pixel-level annotations, our results for MS COCO ZSS are comparable to fully supervised ZSS methods. We also benchmark weakly supervised Cross- dataset Segmentation.
 </p>
@@ -278,12 +278,13 @@ BODY {
 <center>
     <table border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td align="center" valign="bottom" width=600>
+        <td align="center" valign="bottom" style="max-width:800px">
             <img class="result" src="assets/prompt_learning.jpg" style="width: 100%">
         </td>
       </tr>
     </table>
 </center>
+
 
 </body>
 
