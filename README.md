@@ -1,7 +1,6 @@
 # WLSegNet
 
-This is the official code for "A Language-Guided Benchmark for Weakly Supervised Open Vo-
-cabulary Semantic Segmentation".
+This is the official code for "A Language-Guided Benchmark for Weakly Supervised Open Vocabulary Semantic Segmentation".
 
 <p align="center">
   <img src="assets/setting.png" width="80%"/><br>
