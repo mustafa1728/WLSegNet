@@ -6,6 +6,12 @@ This is the official code for "A Language-Guided Benchmark for Weakly Supervised
   <img src="assets/setting.png" width="80%"/><br>
 </p>
 
+* First method to explore multiple and related Open Vocabulary Semantic Segmentation inductive tasks in a weakly supervised setting without using external datasets and fine-tuning
+* First method to handle weakly supervised generalized zero-shot segmentation, zero-shot segmentation and few-shot segmentation with a single training procedure using a frozen vision-language model 
+* Propose a novel and scalable mean instance aware prompt learning that generates highly generalizable prompts, handles domain shift across the datasets and generalizes efficiently to unseen classes
+* The flexible design allows easy modification and optimization of different components as and when required  
+* The proposed method beats existing weakly supervised baselines by large margins while being competitive with pixel-based methods
+
 
 ## Installation and setup
 
